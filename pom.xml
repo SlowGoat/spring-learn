@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-02-hellospring</module>
+        <module>spring-03-annotation</module>
     </modules>
 
 
