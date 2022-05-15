@@ -8,9 +8,10 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--开启注解的支持-->
-    <context:annotation-config/>
+<!--    <context:annotation-config/>-->
+    <context:component-scan base-package="com" />
 
-    <bean id="cat" class="com.pojo.Cat"/>
-    <bean id="dog" class="com.pojo.Dog"/>
+    <!--<bean id="cat" class="com.pojo.Cat"/>
+    <bean id="dog" class="com.pojo.Dog"/>-->
     <bean id="people" class="com.pojo.People"/>
 </beans>
