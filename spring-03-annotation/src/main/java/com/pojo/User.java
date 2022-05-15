@@ -13,4 +13,8 @@ public class User {
     // 相当于bean标签里的属性注入  <property name="name" value="SlowGoat" />
     @Value("SlowGoat")
     public String name;
+
+    public void eat() {
+        System.out.println("吃饭");
+    }
 }

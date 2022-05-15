@@ -12,7 +12,8 @@ public class MyTest {
 
         User user = context.getBean("user", User.class);
 
-        System.out.println(user.name);
+//        System.out.println(user.name);
+        user.eat();
 
     }
 }
